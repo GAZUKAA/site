@@ -1,0 +1,150 @@
+body {
+  margin: 0px;
+  background-color: white;
+  font-family: "Cardo", serif;
+}
+
+*,
+*:before,
+*::after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+p {
+  margin: 0 auto;
+  font-size: 40px;
+  color: #696969;
+}
+/* HEADER
+============================*/
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.conteiner {
+  width: 100%;
+  margin: 0px auto;
+  max-width: 1000px;
+}
+
+.name {
+  padding: 20px;
+  color: #fff;
+  font-size: 65px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* INTRO
+============================*/
+.intro {
+  height: 950px;
+  background: url("image/header2.jpg") center no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.intro_title {
+  font-family: "Cardo", serif;
+  font-size: 55px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 50px;
+}
+
+.intro_title2 {
+
+  margin: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-family: "Cardo", serif;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  z-index: 3;
+  padding: 50px;
+}
+
+.arrow {
+  margin: 0px auto;
+}
+
+.intro:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+/* CONTACTS
+============================*/
+.container2{
+    position: absolute;
+    background-color: #fff;
+    z-index: 100;
+    width: 100%;
+    font-family: "Cardo", serif;
+    margin: 0 auto;
+    text-align: center;
+  
+}
+
+.contacts {
+    text-align: center;
+    color: #696969;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.icon {
+    width: 33.33333%;
+    text-align: center;
+    background-color: #fff;
+    padding: 25px;
+    margin: 0 auto;
+    text-decoration: none;
+}   
+
+.icon1{
+    padding: 55px;
+}
+.icon2{
+    padding: 55px;
+}
+.icon3{
+    padding: 55px;
+}
+
+.conteiner3{
+    background-color: #044b85;
+    height: 90px;
+    margin: 0 auto;
+    padding: 35px;
+    color: rgba(255, 255, 255, 0.63);
+    font-family: "Cardo", serif;
+    font-size: 25px;
+}
+.link{
+    text-decoration: none;
+    opacity: .75;
+    transition: opacity .1s linear;
+    color: white;
+}
+.link:hover{
+    opacity: 1;
+}
